@@ -10,6 +10,7 @@
 #include "a_01_sort/a_05_selection.h"
 #include "a_01_sort/a_06_heap.h"
 #include "a_01_sort/a_07_merge.h"
+#include "a_01_sort/a_08_count.h"
 
 using namespace std;
 
@@ -72,7 +73,8 @@ void sort() {
 //    ShellSort(vec);
 //    SelectionSort(vec);
 //    HeapSort(vec);
-    MergeSort(vec);
+//    MergeSort(vec, 0, vec.size() - 1);
+    CountSort(vec);
     printVector("排序后", vec);
 }
 
@@ -80,7 +82,6 @@ int main() {
 //    class_object();
 //    inherit();
 //    tryCatch(10, 0);
-
     sort();
 
     return 0;

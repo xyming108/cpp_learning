@@ -20,6 +20,8 @@ CMakeFiles/testProject.dir/main.cpp.o: ../a_01_sort/a_04_shell.h
 CMakeFiles/testProject.dir/main.cpp.o: ../a_01_sort/a_05_selection.h
 CMakeFiles/testProject.dir/main.cpp.o: ../a_01_sort/a_06_heap.h
 CMakeFiles/testProject.dir/main.cpp.o: ../a_01_sort/a_07_merge.h
+CMakeFiles/testProject.dir/main.cpp.o: ../a_01_sort/a_08_count.h
+CMakeFiles/testProject.dir/main.cpp.o: ../a_01_sort/util.h
 CMakeFiles/testProject.dir/main.cpp.o: ../main.cpp
 CMakeFiles/testProject.dir/main.cpp.o: ../utils/printUtil.h
 

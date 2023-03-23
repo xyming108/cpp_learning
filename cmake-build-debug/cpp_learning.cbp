@@ -119,6 +119,12 @@
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_07_merge.h">
 			<Option target="testProject"/>
 		</Unit>
+		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_08_count.h">
+			<Option target="testProject"/>
+		</Unit>
+		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/util.h">
+			<Option target="testProject"/>
+		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/main.cpp">
 			<Option target="testProject"/>
 		</Unit>
