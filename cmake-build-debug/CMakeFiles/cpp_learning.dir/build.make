@@ -89,17 +89,62 @@ CMakeFiles/cpp_learning.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_learning.dir/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anker/kevin_cpp/cpp_learning/main.cpp -o CMakeFiles/cpp_learning.dir/main.cpp.s
 
+CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.o: CMakeFiles/cpp_learning.dir/flags.make
+CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.o: ../a_00_base/class_object.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.o -c /Users/anker/kevin_cpp/cpp_learning/a_00_base/class_object.cpp
+
+CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anker/kevin_cpp/cpp_learning/a_00_base/class_object.cpp > CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.i
+
+CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anker/kevin_cpp/cpp_learning/a_00_base/class_object.cpp -o CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.s
+
+CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.o: CMakeFiles/cpp_learning.dir/flags.make
+CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.o: ../a_00_base/inherit.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.o -c /Users/anker/kevin_cpp/cpp_learning/a_00_base/inherit.cpp
+
+CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anker/kevin_cpp/cpp_learning/a_00_base/inherit.cpp > CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.i
+
+CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anker/kevin_cpp/cpp_learning/a_00_base/inherit.cpp -o CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.s
+
+CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.o: CMakeFiles/cpp_learning.dir/flags.make
+CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.o: ../a_00_base/error.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.o -c /Users/anker/kevin_cpp/cpp_learning/a_00_base/error.cpp
+
+CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/anker/kevin_cpp/cpp_learning/a_00_base/error.cpp > CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.i
+
+CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/anker/kevin_cpp/cpp_learning/a_00_base/error.cpp -o CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.s
+
 # Object files for target cpp_learning
 cpp_learning_OBJECTS = \
-"CMakeFiles/cpp_learning.dir/main.cpp.o"
+"CMakeFiles/cpp_learning.dir/main.cpp.o" \
+"CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.o" \
+"CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.o" \
+"CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.o"
 
 # External object files for target cpp_learning
 cpp_learning_EXTERNAL_OBJECTS =
 
 cpp_learning: CMakeFiles/cpp_learning.dir/main.cpp.o
+cpp_learning: CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.o
+cpp_learning: CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.o
+cpp_learning: CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.o
 cpp_learning: CMakeFiles/cpp_learning.dir/build.make
 cpp_learning: CMakeFiles/cpp_learning.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cpp_learning"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cpp_learning"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp_learning.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

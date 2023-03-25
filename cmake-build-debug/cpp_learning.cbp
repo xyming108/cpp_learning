@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="testProject">
-				<Option output="/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/testProject" prefix_auto="0" extension_auto="0"/>
+			<Target title="cpp_learning">
+				<Option output="/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/cpp_learning" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 testProject"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_learning"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="testProject/fast">
-				<Option output="/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/testProject" prefix_auto="0" extension_auto="0"/>
+			<Target title="cpp_learning/fast">
+				<Option output="/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/cpp_learning" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,7 +73,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 testProject/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 cpp_learning/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/anker/kevin_cpp/cpp_learning/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -81,55 +81,58 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_00_base/class_object.cpp">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_00_base/class_object.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_00_base/error.cpp">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_00_base/error.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_00_base/inherit.cpp">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_00_base/inherit.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_01_bubble.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_02_quick.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_03_insertion.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_04_shell.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_05_selection.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_06_heap.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_07_merge.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_08_count.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
-		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/util.h">
-			<Option target="testProject"/>
+		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/a_01_sort/a_09_bucket.h">
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/main.cpp">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
+		</Unit>
+		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/utils/compareUtil.h">
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/utils/printUtil.h">
-			<Option target="testProject"/>
+			<Option target="cpp_learning"/>
 		</Unit>
 		<Unit filename="/Users/anker/kevin_cpp/cpp_learning/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

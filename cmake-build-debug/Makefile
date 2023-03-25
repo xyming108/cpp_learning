@@ -130,17 +130,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named testProject
+# Target rules for targets named cpp_learning
 
 # Build rule for target.
-testProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 testProject
-.PHONY : testProject
+cpp_learning: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_learning
+.PHONY : cpp_learning
 
 # fast build rule for target.
-testProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/build
-.PHONY : testProject/fast
+cpp_learning/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/build
+.PHONY : cpp_learning/fast
 
 a_00_base/class_object.o: a_00_base/class_object.cpp.o
 
@@ -148,7 +148,7 @@ a_00_base/class_object.o: a_00_base/class_object.cpp.o
 
 # target to build an object file
 a_00_base/class_object.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/class_object.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.o
 .PHONY : a_00_base/class_object.cpp.o
 
 a_00_base/class_object.i: a_00_base/class_object.cpp.i
@@ -157,7 +157,7 @@ a_00_base/class_object.i: a_00_base/class_object.cpp.i
 
 # target to preprocess a source file
 a_00_base/class_object.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/class_object.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.i
 .PHONY : a_00_base/class_object.cpp.i
 
 a_00_base/class_object.s: a_00_base/class_object.cpp.s
@@ -166,7 +166,7 @@ a_00_base/class_object.s: a_00_base/class_object.cpp.s
 
 # target to generate assembly for a file
 a_00_base/class_object.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/class_object.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/class_object.cpp.s
 .PHONY : a_00_base/class_object.cpp.s
 
 a_00_base/error.o: a_00_base/error.cpp.o
@@ -175,7 +175,7 @@ a_00_base/error.o: a_00_base/error.cpp.o
 
 # target to build an object file
 a_00_base/error.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/error.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.o
 .PHONY : a_00_base/error.cpp.o
 
 a_00_base/error.i: a_00_base/error.cpp.i
@@ -184,7 +184,7 @@ a_00_base/error.i: a_00_base/error.cpp.i
 
 # target to preprocess a source file
 a_00_base/error.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/error.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.i
 .PHONY : a_00_base/error.cpp.i
 
 a_00_base/error.s: a_00_base/error.cpp.s
@@ -193,7 +193,7 @@ a_00_base/error.s: a_00_base/error.cpp.s
 
 # target to generate assembly for a file
 a_00_base/error.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/error.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/error.cpp.s
 .PHONY : a_00_base/error.cpp.s
 
 a_00_base/inherit.o: a_00_base/inherit.cpp.o
@@ -202,7 +202,7 @@ a_00_base/inherit.o: a_00_base/inherit.cpp.o
 
 # target to build an object file
 a_00_base/inherit.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/inherit.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.o
 .PHONY : a_00_base/inherit.cpp.o
 
 a_00_base/inherit.i: a_00_base/inherit.cpp.i
@@ -211,7 +211,7 @@ a_00_base/inherit.i: a_00_base/inherit.cpp.i
 
 # target to preprocess a source file
 a_00_base/inherit.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/inherit.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.i
 .PHONY : a_00_base/inherit.cpp.i
 
 a_00_base/inherit.s: a_00_base/inherit.cpp.s
@@ -220,7 +220,7 @@ a_00_base/inherit.s: a_00_base/inherit.cpp.s
 
 # target to generate assembly for a file
 a_00_base/inherit.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/a_00_base/inherit.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/a_00_base/inherit.cpp.s
 .PHONY : a_00_base/inherit.cpp.s
 
 main.o: main.cpp.o
@@ -229,7 +229,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -238,7 +238,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -247,7 +247,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_learning.dir/build.make CMakeFiles/cpp_learning.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -258,7 +258,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... testProject"
+	@echo "... cpp_learning"
 	@echo "... a_00_base/class_object.o"
 	@echo "... a_00_base/class_object.i"
 	@echo "... a_00_base/class_object.s"

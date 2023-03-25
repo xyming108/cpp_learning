@@ -1,5 +1,6 @@
 #include <iostream>
 #include "utils/printUtil.h"
+#include "utils/compareUtil.h"
 #include "a_00_base/class_object.h"
 #include "a_00_base/inherit.h"
 #include "a_00_base/error.h"
@@ -11,6 +12,8 @@
 #include "a_01_sort/a_06_heap.h"
 #include "a_01_sort/a_07_merge.h"
 #include "a_01_sort/a_08_count.h"
+#include "a_01_sort/a_09_bucket.h"
+#include "a_01_sort/a_10_radix.h"
 
 using namespace std;
 
@@ -74,7 +77,9 @@ void sort() {
 //    SelectionSort(vec);
 //    HeapSort(vec);
 //    MergeSort(vec, 0, vec.size() - 1);
-    CountSort(vec);
+//    CountSort(vec);
+//    BucketSort(vec);
+    RadixSort(vec);
     printVector("排序后", vec);
 }
 
